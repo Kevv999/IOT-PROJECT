@@ -6,3 +6,6 @@ This project measures the temperature and humidity using a DH11 sensor and displ
 Approximately 2-3 hours is the time to recreate this project.
 
 ## Objective
+I choose this project to gain insight into indoor temperature and humidity. The purpose of this project is to create an easy way of viewing the indoor temperature and humidity using an LCD screen as well as viewing the data using a dashboard provided by Ubidots. This project provided new insights into indoor temperature and humidity, enabling me to keep track of and improve the indoor environment.
+
+## Material
