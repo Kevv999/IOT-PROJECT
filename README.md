@@ -56,4 +56,6 @@ The 2x16 LCD is a display with two rows of 16 characters each. It is commonly us
 
 <img src="https://github.com/Kevv999/IOT-PROJECT/assets/100692756/79684c27-5038-4c34-aa06-ab7d35f8965e" alt="Image" width="200" height="200">
 
+## Computer setup
 
+I chose Visual Studio Code as my IDE for programming the Raspberry Pi Pico WH. The reason for this choice was based on my previous experience with the software. This is also how I uploaded the code, through Visual Studio Code.
