@@ -97,11 +97,17 @@ It's a platform that offers a range of functionality for managing and visualizin
 
 
 ## The code 
-```
+
+To make the LCD work I used the libraries gpio_lcd and lcd_api from this [Link](https://www.circuitschools.com/interfacing-16x2-lcd-module-with-raspberry-pi-pico-with-and-without-i2c/)
+
+Creating an object called tempSensor to interact with the DHT11 sensor. This object let us read temperature and humidity.
+```py
 tempSensor = dht.DHT11(Pin(22))
 ```
 
-```
+Creating an LCD Object with the help of the libraries gpio_lcd and lcd_api which can be found at the link above.
+This object let us control the behavior of the connected LCD. This includes displaying text, such as the temperature and humidity.
+```py
 lcd = GpioLcd(rs_pin=Pin(16),
               enable_pin=Pin(17),
               d4_pin=Pin(18),
@@ -111,7 +117,8 @@ lcd = GpioLcd(rs_pin=Pin(16),
               num_lines=2, num_columns=16)
  
 ```
-```
+This while loop goes on forever and updates the LCD screen with the current temperature and humidity. This code snippet does also send temperature data and humidity data to Ubidots using the function called sendData.
+```py
 while True:
     lcd.clear()
     try:
@@ -132,13 +139,19 @@ while True:
 ```
 
 ## Transmitting the data/connectivity
-```
+
+https post request = transport protocol
+
+
+
+
+```py
 TOKEN = "YOURTOKEN" #Put here your TOKEN
 DEVICE_LABEL = "PicoWBoard" # Assign the device label desire to be send
 WIFI_SSID = secrets["ssid"] # Assign your the SSID of your network
 WIFI_PASS = secrets["password"] # Assign your the password of your network
 ```
-```
+```py
 def connect():
     wlan = network.WLAN(network.STA_IF)         # Put modem on Station mode
     if not wlan.isconnected():                  # Check if already connected
@@ -157,7 +170,7 @@ def connect():
     print('\nConnected on {}'.format(ip))
     return ip
 ```
-```
+```py
 def build_json(variable, value):
     try:
         data = {variable: {"value": value}}
@@ -165,7 +178,7 @@ def build_json(variable, value):
     except:
         return None
 ```
-```
+```py
 def sendData(device, variable, value):
     try:
         url = "https://industrial.api.ubidots.com/"
