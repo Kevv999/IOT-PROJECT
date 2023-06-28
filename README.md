@@ -62,7 +62,16 @@ I chose Visual Studio Code as my IDE for programming the Raspberry Pi Pico WH. T
 
 ## Steps
 
+1. Micropython firmware
+   
+   Install micropython firmware from this [Link](https://micropython.org/download/rp2-pico-w/)<br>
+   Copy and paste the firmware to the Raspberry Pi Pico WH storage.
 
+2. Visual Studio Code
+
+   Install Visual Studio Code from this [Link](https://code.visualstudio.com/)<br>
+   Install Node.js from this [Link](https://nodejs.org/en)<br>
+   Install PyMakr in Visual Studio Code
 
 ## Putting everything together
 
