@@ -140,7 +140,9 @@ while True:
 
 ## Transmitting the data/connectivity
 
-https post request = transport protocol
+The line ```time.sleep(20) ``` in the code snippet above tells us that our temperature data and humidity data are sent every 20 seconds.
+The chosen wireless protocol is WiFi because the Raspberry Pi Pico WH has wifi capabilities, which allow for communication through the network.
+HTTPs post request is the transport protocol for data transmission.
 
 
 
