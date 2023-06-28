@@ -81,3 +81,7 @@ The LCD is connected to the Raspberry Pi Pico WH by connecting the GND of the RP
 
 
 ## Platform
+
+
+Ubidots became a clear choice for the project as it didn’t need for self-hosting or additional costs for storing basic data such as temperature and humidity. Ubidots is a cloud-based platform that met my requirements. 
+It's a platform that offers a range of functionality for managing and visualizing data. If I were to scale the idea further, then looking into a Ubidots Subscription plan would be a great choice. The reason why this would be a great choice is that using a familiar platform ensures a smooth transition, minimizing the learning curve to a new platform.
