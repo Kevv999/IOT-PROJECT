@@ -59,3 +59,25 @@ The 2x16 LCD is a display with two rows of 16 characters each. It is commonly us
 ## Computer setup
 
 I chose Visual Studio Code as my IDE for programming the Raspberry Pi Pico WH. The reason for this choice was based on my previous experience with the software. This is also how I uploaded the code, through Visual Studio Code.
+
+## Steps
+
+
+
+## Putting everything together
+
+*Figure 6:* Wiring
+
+![image](https://github.com/Kevv999/IOT-PROJECT/assets/100692756/c4ef0799-7569-4716-8ecd-32631855cd2d)
+
+(The image is created in Wokwi which is an online platform that provides a virtual simulation environment for testing, designing and simulating. This is also the reason why this image uses a DH22 sensor instead of the DHT11 sensor, either way, both sensors work great for this project.)
+
+This is how the wiring could look like, the DHT11 sensor is connected to the Raspberry Pi Pico Wh using jumper wires. The connections are for data, power(VCC), and ground (GND).
+The LCD is also connected to the Raspberry Pi Pico WH using jumper wires to establish a connection for data and power.
+
+In the circuit diagram, the GND of the DHT11 sensor is connected to the GND pin of the Raspberry Pi Pico WH. The SDA of the DHT11 is connected to GP22 of the Raspberry Pi Pico WH and the VCC of DHT11 is connected to the 3V3 of the Raspberry Pi Pico WH.
+
+The LCD is connected to the Raspberry Pi Pico WH by connecting the GND of the RPPWH to the VSS, RW and K pins of the LCD. Then Connecting (D4,D5,D6,D7,E) from the LCD to (GP18,GP19,GP20,GP21,GP17), as well as VDD and V0 to the 3V3 pin of the RPPWH.
+
+
+## Platform
