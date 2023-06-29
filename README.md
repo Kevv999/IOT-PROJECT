@@ -219,3 +219,6 @@ The widgets that are used in the dashboard for displaying the humidity are the l
 ### Full view of the dashboard
 *Figure 9:* Dashboard
 ![image](https://github.com/Kevv999/IOT-PROJECT/assets/100692756/bc69e65b-5c17-465a-ab7c-37aeece3fef0)
+
+## Finalizing the design
+
