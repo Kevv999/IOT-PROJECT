@@ -225,14 +225,14 @@ The widgets that are used in the dashboard for displaying the humidity are the l
 I am very satisfied with the outcome of this project, as it turned out better than expected and I gained additional knowledge about IoT. The [road map](https://github.com/Kevv999/IOT-PROJECT/blob/main/1DT305_Roadmap_Part_3.pdf) and the [GitHub link](https://github.com/iot-lnu/applied-iot) from the course 1DT305 were very helpful, as I frequently found myself referring back to the road map and GitHub throughout the project.
 
 ### Space for improvements
-Something that could improve the project or could be done in another way is to add an I2C interface to the project. Adding the I2C interface would create more space and be better for cable management. The space would make it easier to add more sensors/components to the project and remove the overwhelming jump wires that could potentially make newcomers feel intimidated to re-create the project.
+Something that could improve the project or could be done in another way is to add an I2C-interface to the project. Adding the I2C-interface would create more space and be better for cable management. The space would make it easier to add more sensors/components to the project and remove the overwhelming jump wires that could potentially make newcomers feel intimidated to re-create the project.
 
-#### I2C Interface
+#### I2C-interface
 | Component  | Where to buy | Price|
 | ------------- | ------------- | ------------- |
-| I2C interace  | electrokit.com  | 39 SEK  |
+| I2C-interace  | electrokit.com  | 39 SEK  |
 
-*Figure 10:* I2C interface 
+*Figure 10:* I2C-interface 
 
 <img src="https://github.com/Kevv999/IOT-PROJECT/assets/100692756/b62351aa-5182-4dfc-bca7-9e6875974977" alt="Image" width="200" height="200">
 
