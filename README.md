@@ -231,6 +231,8 @@ Something that could improve the project or could be done in another way is to a
 | Component  | Where to buy | Price|
 | ------------- | ------------- | ------------- |
 | I2C interace  | electrokit.com  | 39 SEK  |
+
 *Figure 10:* I2C interface 
+
 <img src="https://github.com/Kevv999/IOT-PROJECT/assets/100692756/b62351aa-5182-4dfc-bca7-9e6875974977" alt="Image" width="200" height="200">
 
