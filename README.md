@@ -198,3 +198,6 @@ def sendData(device, variable, value):
         pass
 
 ```
+
+## Presenting the data
+
