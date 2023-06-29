@@ -227,9 +227,10 @@ I am very satisfied with the outcome of this project, as it turned out better th
 ### Space for improvements
 Something that could improve the project or could be done in another way is to add an I2C interface to the project. Adding the I2C interface would create more space and be better for cable management. The space would make it easier to add more sensors/components to the project and remove the overwhelming jump wires that could potentially make newcomers feel intimidated to re-create the project.
 
-### I2C Interface
+#### I2C Interface
 | Component  | Where to buy | Price|
 | ------------- | ------------- | ------------- |
 | I2C interace  | electrokit.com  | 39 SEK  |
+*Figure 10:* I2C interface 
 <img src="https://github.com/Kevv999/IOT-PROJECT/assets/100692756/b62351aa-5182-4dfc-bca7-9e6875974977" alt="Image" width="200" height="200">
 
