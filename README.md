@@ -222,4 +222,4 @@ The widgets that are used in the dashboard for displaying the humidity are the l
 
 ## Finalizing the design
 
-I am very satisfied with the outcome of this project, as it turned out better than expected and I gained additional knowledge about IoT. The road map and the [GitHub link](https://github.com/iot-lnu/applied-iot) from the course 1DT305 were very helpful, as I frequently found myself referring back to the road map and GitHub throughout the project.
+I am very satisfied with the outcome of this project, as it turned out better than expected and I gained additional knowledge about IoT. The [road map](https://github.com/Kevv999/IOT-PROJECT/blob/main/1DT305_Roadmap_Part_3.pdf) and the [GitHub link](https://github.com/iot-lnu/applied-iot) from the course 1DT305 were very helpful, as I frequently found myself referring back to the road map and GitHub throughout the project.
