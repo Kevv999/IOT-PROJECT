@@ -201,3 +201,21 @@ def sendData(device, variable, value):
 
 ## Presenting the data
 
+Data is sent and saved every 20 seconds. The Data on the temperature and humidity is stored for an indefinite amount of time. As of right now, I use a 30-day trial on Ubidots. This could of course be extended further using a subscription plan.
+
+### Temperature
+This is how the temperature is presented in the dashboard.
+The widgets that are used in the dashboard for displaying the temperature are the line chart and the thermometer widget.<br>
+*Figure 7:* Temperature
+![image](https://github.com/Kevv999/IOT-PROJECT/assets/100692756/e7d3ac99-297c-4874-b978-61e89940bcf6)
+
+
+### Humidity
+This is how the humidity is presented in the dashboard.
+The widgets that are used in the dashboard for displaying the humidity are the line chart and the metric widget.<br>
+*Figure 8:* Humidity
+![image](https://github.com/Kevv999/IOT-PROJECT/assets/100692756/01bceb69-d65b-4476-bd41-1f1671f97de0)
+
+### Full view of the dashboard
+*Figure 9:* Dashboard
+![image](https://github.com/Kevv999/IOT-PROJECT/assets/100692756/bc69e65b-5c17-465a-ab7c-37aeece3fef0)
