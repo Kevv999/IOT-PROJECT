@@ -238,6 +238,8 @@ Something that could improve the project or could be done in another way is to a
 *Figure 10:* I2C-interface 
 
 <img src="https://github.com/Kevv999/IOT-PROJECT/assets/100692756/b62351aa-5182-4dfc-bca7-9e6875974977" alt="Image" width="200" height="200">
+
+*Figure 11:* Finalized project 
 ![image](https://github.com/Kevv999/IOT-PROJECT/assets/100692756/955c3e8e-c135-4c1f-8ab8-e476f432ffe5)
 
 
