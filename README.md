@@ -146,13 +146,14 @@ HTTPs post request is the transport protocol for data transmission.
 
 
 
-
+Here you should add your token från Ubidots and add your wifi credentials.
 ```py
 TOKEN = "YOURTOKEN" #Put here your TOKEN
 DEVICE_LABEL = "PicoWBoard" # Assign the device label desire to be send
 WIFI_SSID = secrets["ssid"] # Assign your the SSID of your network
 WIFI_PASS = secrets["password"] # Assign your the password of your network
 ```
+The code provided is a function called connect() that establishes a Wi-Fi connection.
 ```py
 def connect():
     wlan = network.WLAN(network.STA_IF)         # Put modem on Station mode
@@ -172,6 +173,7 @@ def connect():
     print('\nConnected on {}'.format(ip))
     return ip
 ```
+Creates a JSON object using a variable as the key and the value to the corresponding value.
 ```py
 def build_json(variable, value):
     try:
@@ -180,6 +182,7 @@ def build_json(variable, value):
     except:
         return None
 ```
+sendData is a function that sends data to the Ubidots platform.
 ```py
 def sendData(device, variable, value):
     try:
